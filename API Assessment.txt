@@ -1,0 +1,12 @@
+Create a simple RESTful API in Python using any framework(Django, FastAPI, etc.) 
+that performs CRUD operations (Create, Read, Update, Delete) on a fictional resource, such as "books" or "users". Your API should have endpoints to:
+
+1. Create a new item of the resource.
+2. Retrieve a single item of the resource by its unique identifier.
+3. Retrieve a list of all items of the resource.
+4. Update an existing item of the resource by its unique identifier.
+5. Delete an existing item of the resource by its unique identifier.
+
+Ensure that your API responses follow RESTful conventions and return appropriate status codes and response formats. 
+You can use in-memory storage (e.g., a list or dictionary) to store the data for simplicity. 
+Additionally, provide clear instructions on how to run and test your API.

@@ -1,0 +1,26 @@
+
+1.
+Write a Python function called 'anagram_groups' that takes a list of strings as input and returns a list of lists,
+ where each inner list contains words that are anagrams of each other. Anagrams are words formed by rearranging the 
+ letters of another word, such as "listen" and "silent". The order of the inner lists and the words within them doesn't matter.
+  For example, given the input '["listen", "silent", "hello", "lovers", "silent", "lemon"]', 
+  the function should return '[["listen", "silent"], ["hello"], ["lovers", "lemon"]]'.
+
+2.
+Consider a list of tuples, where each tuple contains a student's name 
+and their score in a test. Write a Python function called 'top_students' that takes
+ this list as input and returns a list of the top-scoring students' names. 
+ The number of top students to return should be specified as an argument to the function. 
+ If there are ties in scores, return all students with the tied score. For example, given the input '
+ [(‘Alice’, 85), (‘Bob’, 90), (‘Charlie’, 85), (‘David’, 95)]', calling 'top_students(scores, 2)' should return '['Bob', 'David']'.
+
+3.
+Write a Python function called 'flatten_dict' that takes a nested dictionary 
+as input and returns a flattened dictionary where the keys are concatenated with a dot. For example, 
+given the input '{'a': 1, 'b': {'x': 2, 'y': 3}, 'c': {'z': 4}}', the function should return '{'a': 1, 'b.x': 2, 'b.y': 3, 'c.z': 4}'.
+
+4.
+Consider a list of integers. Write a Python function called 'max_sum_subarray' that 
+takes this list as input and returns the maximum sum that can be obtained by summing any 
+contiguous subarray of the input list. For example, given the input '[1, -2, 3, 4, -1, 2, 1, -5, 4]', 
+the function should return '9' (corresponding to the subarray '[3, 4, -1, 2, 1]').

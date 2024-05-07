@@ -1,0 +1,41 @@
+Certainly! Here are five SQL questions based on the 'Employees' and 'Departments' tables:
+
+Consider the 'Employees' table with the following columns:
+
+- 'emp_id' (integer, primary key)
+- 'emp_name' (string)
+- 'department_id' (integer, foreign key referencing 'Departments')
+- 'hire_date' (date)
+
+
+Given the 'Departments' table with the following columns:
+
+- 'dept_id' (integer, primary key)
+- 'dept_name' (string)
+
+1.
+Write an SQL query to retrieve the names of all employees along with the names of 
+their corresponding departments. Include only employees who belong to the 'Sales' 
+department. The result should include two columns: 'emp_name' and 'dept_name'.
+
+2.
+Given the 'Employees' table, write an SQL query to calculate the average tenure (in years)
+ of employees in each department. The tenure is calculated as the difference between the 
+ current date and the 'hire_date', rounded to the nearest year. The result should include
+  two columns: 'dept_name' and 'AverageTenure'.
+
+3.
+Consider the 'Employees' table. Write an SQL query to find the names of employees who 
+joined the company after '2020-01-01' and are currently working in the 'Finance'
+ department. The result should include only the 'emp_name' column.
+
+
+4.
+Write an SQL query to retrieve the names of departments along with the number 
+of employees working in each department. The result should include two columns:
+ 'dept_name' and 'NumEmployees'.
+
+5.
+Consider the 'Employees' table. Write an SQL query to find the names of employees 
+who have been with the company for more than 3 years and have a salary greater than
+ $50,000. The result should include only the 'emp_name' column.
