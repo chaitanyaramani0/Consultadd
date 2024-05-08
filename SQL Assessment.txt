@@ -39,3 +39,5 @@ of employees working in each department. The result should include two columns:
 Consider the 'Employees' table. Write an SQL query to find the names of employees 
 who have been with the company for more than 3 years and have a salary greater than
  $50,000. The result should include only the 'emp_name' column.
+
+ 
